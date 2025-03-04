@@ -1,0 +1,42 @@
+{
+  "name": "payload-fallback-data",
+  "version": "1.0.0",
+  "description": "Use fallback values for data provided by payloadcms.",
+  "repository": "https://github.com/pemedia/payload-fallback-data",
+  "author": "info@pemedia.de",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "prepublishOnly": "tsc"
+  },
+  "exports": {
+    "./server": {
+      "import": "./dist/server/index.js",
+      "types": "./dist/server/index.d.ts"
+    },
+    "./client": {
+      "import": "./dist/client/index.js",
+      "types": "./dist/client/index.d.ts"
+    },
+    "./types": {
+      "import": "./dist/types/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "payload",
+    "payloadcms"
+  ],
+  "dependencies": {
+    "ts-pattern": "^5.6.2"
+  },
+  "peerDependencies": {
+    "payload": "^3.25.0",
+    "typescript": "^5"
+  },
+  "type": "module"
+}
