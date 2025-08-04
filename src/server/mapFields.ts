@@ -1,6 +1,6 @@
 import type * as P from "payload";
 import { match } from "ts-pattern";
-import type * as T from "../types";
+import type * as T from "../types/index.js";
 
 export const mapFields = (fields: P.FlattenedField[]) => {
     return fields.filter(filterField).map(mapField);

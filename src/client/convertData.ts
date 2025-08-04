@@ -1,5 +1,5 @@
 import { match } from "ts-pattern";
-import type * as T from "../types";
+import type * as T from "../types/index.js";
 
 export const convertData = (fields: T.FieldConfig[], data: any) => {
     return fields.reduce((result, field) => ({

@@ -1,1 +1,1 @@
-export { mapFields } from "./mapFields";
+export { mapFields } from "./mapFields.js";

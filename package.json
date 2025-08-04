@@ -1,6 +1,6 @@
 {
   "name": "payload-fallback-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use fallback values for data provided by payloadcms.",
   "repository": "https://github.com/pemedia/payload-fallback-data",
   "author": "info@pemedia.de",
