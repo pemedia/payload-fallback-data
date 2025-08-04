@@ -51,6 +51,10 @@ const dataWithFallbacks = convertData(schema, data);
 
 ## Changelog
 
+### v 1.0.1
+
+- Fixed imports
+
 ### v 1.0.0
 
 - Initial release
